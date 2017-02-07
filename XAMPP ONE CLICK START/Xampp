@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+echo "enter your password here without quotes" | sudo -S echo -n 2>/dev/random 1>/dev/random
+sudo ./.xampp start
