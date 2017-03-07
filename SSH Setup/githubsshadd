@@ -1,0 +1,12 @@
+--> cd ~.ssh
+
+cat cat id_rsa.pub
+and copy key
+
+or just use xclip
+
+xclip ~.ssh/id_rsa.pub
+
+
+Now Go to github and ssh key and paste the key from clipboard
+
